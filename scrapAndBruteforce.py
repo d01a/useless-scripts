@@ -26,7 +26,7 @@ def findDept(respnse):
     depts = parser.find_all('td', id='department')
     output = []
     for dept in depts:
-        output.append(dept.txt)
+        output.append(dept.text)
     return output
 
 
